@@ -196,7 +196,7 @@ node-version: 18
 ## 👨‍💻 Author
 
 **Rahat Chowdhury**  
-📧 [rahatAust131@gmail.com](mailto:rczisan@gmail.com)  
+📧 [rczisan@gmail.com](mailto:rczisan@gmail.com)  
 💼 [LinkedIn](https://www.linkedin.com/in/rahat-chowdhury-zisan/)  
 💻 [GitHub](https://github.com/rahatAust131)
 
