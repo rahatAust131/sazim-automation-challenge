@@ -13,7 +13,7 @@ built with **Playwright + JavaScript**, following **Page Object Model (POM)** ar
 ## 📑 Table of Contents
 - [About the Project](#-about-the-project)
 - [Project Structure](#-project-structure)
-- [Setup Instructions](#-setup-instructions)
+- [Setup Instructions](#%EF%B8%8F-setup-instructions)
 - [Running Tests](#-running-tests)
 - [Architecture & Design](#-architecture--design)
 - [Test Reporting](#-test-reporting)
