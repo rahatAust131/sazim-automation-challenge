@@ -1,14 +1,14 @@
 import {test} from "@playwright/test";
-import { ProductListPage } from "../pages/ProductListPage";
+import { MyProductsPage } from "../pages/MyProducts";
 
 test.describe('My Products Tests', () => {
     test('Valid My Products', async ({ page }) => {
-        const productListPage = new ProductListPage(page);
-        await productListPage.navigate();
-        await productListPage.loginFirst();
-        await productListPage.checkLoginSuccess();
-        
-        await productListPage.navigateToMyProductsPage();
-        await productListPage.checkMyProductsNavigationSuccess();
+        const myProductsPage = new MyProductsPage(page);
+        await myProductsPage.navigate();
+        await myProductsPage.loginFirst();
+        await myProductsPage.checkLoginSuccess();
+
+        await myProductsPage.navigateToMyProductsPage();
+        await myProductsPage.checkMyProductsNavigationSuccess();
     });
 });

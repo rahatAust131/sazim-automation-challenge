@@ -1,6 +1,6 @@
-import { BasePage } from "./BasePage";
+import { BasePage } from "./BasePage.js";
 
-export class ProductListPage extends BasePage {
+export class MyProductsPage extends BasePage {
     constructor(page) {
         super(page);
     }
@@ -21,16 +21,16 @@ export class ProductListPage extends BasePage {
         }
     }
 
-    async navigateToProductListPage() {
-        await this.page.getByText('Browse Products').click();
+    async navigateToMyProductsPage() {
+        await this.page.getByText('My Products').click();
     }
 
-    async checkNavigationSuccess() {
-        const products = await this.page.getByText('SEARCH').isVisible();
-        if (products) {
-            console.log("Navigated to 'Browse Products' page successfully");
+    async checkMyProductsNavigationSuccess() {
+        const myProducts = await this.page.getByText('MY PRODUCTS').isVisible();
+        if (myProducts) {
+            console.log("Navigated to 'My Products' page successfully");
         } else {
-            console.log("Couldn't navigate to 'Browse Products' page");
+            console.log("Couldn't navigate to 'My Products' page");
         }
     }
 }
