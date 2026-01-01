@@ -1,5 +1,6 @@
 import {test} from "@playwright/test";
 import { ProductDetailsPage } from "../pages/ProductDetailsPage";
+const specificProductName = "Funshine bear";
 
 test.describe('Product Rent/Buy Options', () => {
     test('View Product Rent/Buy Options', async ({ page }) => {
@@ -9,7 +10,6 @@ test.describe('Product Rent/Buy Options', () => {
         
         await productDetailsPage.navigateToProductListPage();
 
-        const specificProductName = "Funshine bear";
         await productDetailsPage.clickOnSpecificProduct(specificProductName);
         await productDetailsPage.checkProductDetailsDisplayed(specificProductName);
 
