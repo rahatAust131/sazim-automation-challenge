@@ -25,7 +25,7 @@ built with **Playwright + JavaScript**, following **Page Object Model (POM)** ar
 
 ## 📘 About the Project
 
-This repository contains Playwright automation scripts that test the core workflows of [Teebay Buggy](https://ehsanur-rahman-sazim.github.io/teebay-buggy/). Basically it's a demo website made for testing purpose and it was provided by sazim.io as an assessment for me. It demonstrates:
+This repository contains Playwright automation scripts that test the core workflows of [Teebay Buggy](https://ehsanur-rahman-sazim.github.io/teebay-buggy/). Basically Teebay Buggy is the name of a demo website made for the sole purpose of testing and it was provided by sazim.io as an assessment for me. It demonstrates:
 
 - UI automation using Playwright (JavaScript)
 
