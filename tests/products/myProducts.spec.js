@@ -1,5 +1,5 @@
-import {test} from "@playwright/test";
-import { MyProductsPage } from "../pages/MyProducts";
+import { test } from "@playwright/test";
+import { MyProductsPage } from "../pages/MyProductsPage";
 
 test.describe('My Products Tests', () => {
     test('Valid My Products', async ({ page }) => {

@@ -1,4 +1,4 @@
-import { MyProductsPage } from "../pages/MyProducts";
+import { MyProductsPage } from "../pages/MyProductsPage";
 import { test } from "@playwright/test";
 
 test.describe('CRUD Tests', () => {
@@ -10,7 +10,7 @@ test.describe('CRUD Tests', () => {
 
         await myProductsPage.navigateToMyProductsPage();
         await myProductsPage.checkMyProductsNavigationSuccess();
-        
+
         // Navigate to Add Product Page
         await myProductsPage.navigateToAddProductPage();
         await myProductsPage.checkAddProductNavigationSuccess();
@@ -33,7 +33,7 @@ test.describe('CRUD Tests', () => {
         // View updated product in My Products list
         await myProductsPage.navigateToMyProductsPage();
         await myProductsPage.viewUpdatedProduct("Updated Test Product");
-        
+
         // Delete the product
         await myProductsPage.deleteProduct();
         await myProductsPage.checkProductDeletionSuccessMessage();
